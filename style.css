@@ -33,6 +33,9 @@ body {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
     pointer-events: none;
 }
+
+/* BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS */
+
 #loginBtn {
     font-size: 10em;
     font-family: helvetica;
@@ -63,6 +66,64 @@ body {
     color: #ccc;
 }
 
+#backBtn {
+    width: 35%;
+    height: 25px;
+    background-color: hsl(210, 13%, 50%);
+    border: 1.5px;
+    border-style: solid;
+    border-color: #2a2a2a;
+    border-radius: 7px;
+    font-family: helvetica;
+    position: absolute;
+    left: 9.5%;
+    top: 59%;
+    text-shadow: 1px 0.5px 1px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    padding: 8px;
+    box-sizing: border-box;
+}
+#backBtn:hover {
+    color: darkgray;
+    background-color: hsl(210, 13%, 57%);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.6);
+}
+
+#backBtnpg4 {
+    width: 35%;
+    height: 25px;
+    background-color: hsl(210, 13%, 50%);
+    border: 1.5px;
+    border-style: solid;
+    border-color: #2a2a2a;
+    border-radius: 7px;
+    font-family: helvetica;
+    position: absolute;
+    left: 9.5%;
+    top: 79%;
+    text-shadow: 1px 0.5px 1px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    padding: 8px;
+    box-sizing: border-box;
+}
+#backBtnpg4:hover {
+    color: darkgray;
+    background-color: hsl(210, 13%, 57%);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.6);
+}
+
 #submitBtn {
     width: 35%;
     height: 25px;
@@ -73,7 +134,7 @@ body {
     border-radius: 7px;
     font-family: helvetica;   
     position:absolute;
-    left: 58.3%;
+    left: 55.3%;
     top: 59%;
     text-shadow: 1px 0.5px 1px rgba(0, 0, 0, 0.6);
     cursor: pointer;
@@ -92,7 +153,7 @@ body {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.6);
 }
 
-#backBtn {
+#resetBtn {
     width: 35%;
     height: 25px;
     background-color: hsl(210, 13%, 50%);
@@ -100,10 +161,10 @@ body {
     border-style: solid;
     border-color: #2a2a2a;
     border-radius: 7px;
-    font-family: helvetica;
-    position: absolute;
-    left: 12.4%;
-    top: 59%;
+    font-family: helvetica;   
+    position:absolute;
+    left: 55.3%;
+    top: 79%;
     text-shadow: 1px 0.5px 1px rgba(0, 0, 0, 0.6);
     cursor: pointer;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3);
@@ -115,7 +176,7 @@ body {
     padding: 8px;
     box-sizing: border-box;
 }
-#backBtn:hover {
+#resetBtn:hover {
     color: darkgray;
     background-color: hsl(210, 13%, 57%);
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.6);
@@ -136,7 +197,7 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
     position: absolute;
     white-space: nowrap;
-    left: 42%;
+    left: 37.7%;
     top: 82%;
     display: flex; 
     justify-content: center; 
@@ -146,36 +207,6 @@ body {
     box-sizing: border-box;
 }
 #clickBtn:hover {
-    color: darkgray;
-    background-color: hsl(210, 13%, 57%);
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.6);
-}
-
-#resetBtn {
-    width: 35%;
-    height: 20px;
-    background-color: hsl(210, 13%, 50%);
-    border: 1.5px;
-    border-style: solid;
-    border-color: #2a2a2a;
-    border-radius: 7px;
-    font-family: helvetica;
-    position: absolute;
-    left: 53%;
-    top: 80%;
-    white-space: nowrap;
-    text-shadow: 1px 0.5px 1px rgba(0, 0, 0, 0.6);
-    cursor: pointer;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3);
-    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    text-align: center; 
-    padding: 8px;
-    box-sizing: border-box;
-}
-#resetBtn:hover {
     color: darkgray;
     background-color: hsl(210, 13%, 57%);
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.6);
@@ -211,35 +242,6 @@ body {
     color: #ccc;
 }
 
-#backBtnpg4 {
-    width: 35%;
-    height: 20px;
-    background-color: hsl(210, 13%, 50%);
-    border: 1.5px;
-    border-style: solid;
-    border-color: #2a2a2a;
-    border-radius: 7px;
-    font-family: helvetica;
-    position: absolute;
-    left: 13.8%;
-    top: 80%;
-    text-shadow: 1px 0.5px 1px rgba(0, 0, 0, 0.6);
-    cursor: pointer;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3);
-    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    text-align: center; 
-    padding: 8px;
-    box-sizing: border-box;
-}
-#backBtnpg4:hover {
-    color: darkgray;
-    background-color: hsl(210, 13%, 57%);
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.6);
-}
-
 #backtologinBtn {
     font-size: 5em;
     font-family: helvetica;
@@ -272,7 +274,7 @@ body {
     color: #ccc;
 }
 
-/* INPUTS */
+/* INPUTS INPUTS INPUTS INPUTS INPUTS INPUTS INPUTS INPUTS INPUTS INPUTS INPUTS INPUTS INPUTS INPUTS INPUTS INPUTS INPUTS INPUTS INPUTS */
 .Input {
     font-size: 2em;
     position: absolute;
@@ -282,8 +284,9 @@ body {
     height: 80px;
     box-sizing: border-box;
     top: 25%;
-    left: 8%;
+    left: 5%;
 }
+
 .Inputpage4 {
     font-size: 2em;
     position: absolute;
@@ -292,11 +295,12 @@ body {
     width: 80px;
     height: 80px;
     box-sizing: border-box;
-    top: 25%;
-    left: 8%;
+    top: 30%;
+    left: 5%;
 }
 
-#idusn {
+#idusn, #idpw {
+    color: slategray;
     width: 600%;
     height: 35px;
     background-color: slategray;
@@ -307,12 +311,12 @@ body {
     box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.3);
     transition: background-color 0.5s ease, color 0.5s ease, box-shadow 0.3s ease, transform 0.3s ease;
 }
-#idusn:hover {
+#idusn:hover, #idpw:hover {
     background-color: hsl(210, 13%, 57%);
-    color: white;
+    color: hsl(210, 13%, 15%);
     box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.6);
 }
-#idusn::placeholder {
+#idusn::placeholder, #idpw::placeholder {
     display: inline-block;
     transform: scale(5, 5.2);
     color: slategray;
@@ -322,11 +326,12 @@ body {
     left: 41%;
     top: 35%;
 }
-#idusn:hover::placeholder {
+#idusn:hover::placeholder, #idpw:hover::placeholder {
     color: hsl(210, 13%, 15%);
 }
 
-#idpw {
+#inputPage4pw, #inputPage4confirm {
+    color: slategray;
     width: 600%;
     height: 35px;
     background-color: slategray;
@@ -337,84 +342,55 @@ body {
     box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.3);
     transition: background-color 0.5s ease, color 0.5s ease, box-shadow 0.3s ease, transform 0.3s ease;
 }
-#idpw:hover {
+
+#inputPage4pw:hover, #inputPage4confirm:hover {
     background-color: hsl(210, 13%, 57%);
-    color: white;
-    box-shadow: 5px -5px 25px rgba(0, 0, 0, 0.6);
+    color: hsl(210, 13%, 15%);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.6);
 }
-#idpw::placeholder {
+
+#inputPage4pw::placeholder {
     display: inline-block;
-    transform: scale(5, 5.2);
+    transform: scale(3.2, 5.2);
     color: slategray;
     transition: color 0.5s ease;
-    font-weight: 700;
+    font-weight: 800;
     position: absolute;
-    top: 35%;
-    left: 41%;
+    left: 35%;
+    top: 20%;
 }
-#idpw:hover::placeholder {
+
+#inputPage4pw:hover::placeholder {
     color: hsl(210, 13%, 15%);
 }
 
-#inputPage4pw {
-    width: 410%; /* Ensure it fits within the container */
-    height: 40px; /* Increase height for better clicking area */
-    margin: 10px 0; /* Add margin for spacing */
-    padding: 10px; /* Add padding for better spacing */
-    background-color: slategray;
-    color: white;
-    border: 2px solid #2a2a2a; /* Combine border properties */
-    border-radius: 7px;
-    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.3);
-    transition: background-color 0.5s ease, color 0.5s ease, box-shadow 0.3s ease, transform 0.3s ease;
-    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
-    position: relative; /* Ensure input fields are positioned relative */
-    z-index: 2; /* Ensure input fields are on top */
-  }
-  #inputPage4confirm {
-    width: 410%; /* Ensure it fits within the container */
-    height: 40px; /* Increase height for better clicking area */
-    margin: 10px 0; /* Add margin for spacing */
-    padding: 10px; /* Add padding for better spacing */
-    background-color: slategray;
-    color: white;
-    border: 2px solid #2a2a2a; /* Combine border properties */
-    border-radius: 7px;
-    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.3);
-    transition: background-color 0.5s ease, color 0.5s ease, box-shadow 0.3s ease, transform 0.3s ease;
-    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
-    position: relative; /* Ensure input fields are positioned relative */
-    z-index: 2; /* Ensure input fields are on top */
-    top: -30%;
-}
-  
-  #inputPage4pw:hover, #inputPage4confirm:hover {
-    background-color: hsl(210, 13%, 57%);
-    color: white;
-    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.6);
-  }
-  
-  #inputPage4pw::placeholder, #inputPage4confirm::placeholder {
-    color: #333;
+#inputPage4confirm::placeholder {
+    display: inline-block;
+    transform: scale(2.4, 5.2);
+    color: slategray;
     transition: color 0.5s ease;
-    font-weight: 700;
-  }
-  
-  #inputPage4pw:hover::placeholder, #inputPage4confirm:hover::placeholder {
-    color: hsl(210, 13%, 15%);
-  }
+    font-weight: 800;
+    position: absolute;
+    left: 29%;
+    top: 20%;
+}
 
+#inputPage4confirm:hover::placeholder {
+    color: hsl(210, 13%, 15%);
+}
+
+/*  TEXTS TEXTS TEXTS TEXTS TEXTS TEXTS TEXTS TEXTS TEXTS TEXTS TEXTS TEXTS TEXTS TEXTS TEXTS TEXTS TEXTS TEXTS TEXTS TEXTS TEXTS */
 
 a {
     text-decoration: none;
     color: #2a2a2a;
 }
-#p {
+#forgottxtpg2 {
     color: #ccc;
     font-family: helvetica;
     position: absolute;
     top: 60%;
-    left: 13%;
+    left: 10%;
     font-size: 1.9em;
     font-weight: 1000;
     white-space: nowrap;
@@ -441,7 +417,51 @@ h2 {
     pointer-events: none;
 }
 
-/* CONTAINER */
+#welcomeh1 {
+    color: darkgray;
+    font-family: helvetica;
+    position: absolute;
+    top: 10%;
+    left: 27%;
+    font-size: 3em;
+    font-weight: 1000;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+    pointer-events: none;
+}
+
+#ppage4 {
+    color: #ccc;
+    font-family: helvetica;
+    position: absolute;
+    top: 21%;
+    left: 29.3%;
+    font-size: 1.7em;
+    font-weight: 1000;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 2.5px 2px 5px rgba(0, 0, 0, 1);
+    pointer-events: none;
+    z-index: 2;
+}
+
+#h1pg5 {
+    font-family: helvetica;
+    color: slategray;
+    position: absolute;
+    top: 10%;
+    left: 21%;
+    font-size: 3em;
+    font-weight: 1000;
+    width: 750px;
+    padding: 10px;
+    text-align: center;
+    z-index: 10;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+    pointer-events: none;
+}
+
+/* CONTAINERS */
 .container {
     position: absolute;
     top: 25%;
@@ -466,13 +486,12 @@ h2 {
     z-index: 1;
 }
 
-
-
 .reset-box {
     position: relative;
-    width: 724%; 
-    height: 170px; 
-    background-color: rgba(255, 255, 255, 0.2);
+    width:  1000%; 
+    height: 200px;
+    max-height: 400px;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 20px;
     border-radius: 20px;
     color: #fff;
@@ -480,53 +499,9 @@ h2 {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.6);
+    text-align: center;
     z-index: 1;
 }
-
-#welcomeh1 {
-    color: darkgray;
-    font-family: helvetica;
-    position: absolute;
-    top: 10%;
-    left: 27%;
-    font-size: 3em;
-    font-weight: 1000;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
-    pointer-events: none;
-}
-#ppage4 {
-    color: #ccc;
-    font-family: helvetica;
-    position: absolute;
-    top: 24%;
-    left: 37.5%;
-    font-size: 1.3em;
-    font-weight: 1000;
-    width: 300px;
-    height: 100px;
-    text-align: center;
-    text-shadow: 2.5px 2px 5px rgba(0, 0, 0, 1);
-    pointer-events: none;
-    z-index: 2;
-}
-
-#h1pg5 {
-    font-family: helvetica;
-    color: slategray;
-    position: absolute;
-    top: 10%;
-    left: 21%;
-    font-size: 3em;
-    font-weight: 1000;
-    width: 750px;
-    padding: 10px;
-    text-align: center;
-    z-index: 10;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
-    pointer-events: none;
-}
-
-
 
 button:hover {
     box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5);
